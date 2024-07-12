@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+
+.home_container{
+    @apply px-[8px] 
+}
+@tailwind utilities;

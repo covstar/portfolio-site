@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.right__sideBar{
+    @apply  bg-[#EDEDED] mobile:hidden tablet:hidden flex-auto max-w-[400px] min-w-[25%] drop-shadow-lg  mt-[3rem] rounded-[30px] px-[1rem] pt-[3rem] max-h-[700px]
+}
+
+@tailwind utilities;

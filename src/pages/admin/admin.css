@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+.admin_container{
+    @apply px-[8px] py-[1rem]  
+}
+.admin_text{
+    @apply mx-auto text-center mt-[2rem]
+}
+.admin_text h2{
+    @apply text-[25px] font-[700] capitalize leading-tight
+}
+@tailwind utilities;

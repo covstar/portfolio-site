@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+.appbar__container{
+    @apply  w-full bg-[#171717] text-[#EDEDED] flex justify-between items-center px-[4%] mobile:px-[1rem] tablet:px-[2rem] py-[.5rem]  laptop:sticky laptop:top-0 z-[2000]
+}
+.appbar__container .user__profile{
+    @apply flex items-center gap-x-3
+}
+
+@tailwind utilities;

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+
+.selectedFiles_container {
+	@apply flex  overflow-x-scroll gap-x-4 py-[.5rem];
+}
+.create_container{
+    @apply mt-[2rem] relative  pb-[4rem]
+}
+.selectedFiles_container .files {
+	@apply w-[250px] h-[350px] rounded-md overflow-hidden relative laptop:w-[350px] laptop:h-[450px] drop-shadow-md;
+}
+.file_remove_icon {
+	@apply absolute top-2 right-2 cursor-pointer;
+}
+
+.selectedFiles_container::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+    background-color: none;
+}
+
+.selectedFiles_container::-webkit-scrollbar-track {
+	background-color: none;
+}
+.selectedFiles_container::-webkit-scrollbar-thumb {
+	background-color: none;
+}
+.caption__container{
+    @apply  mt-[2rem] gap-y-4 mx-auto w-full
+}
+.caption__container textarea, .caption__container input{
+    @apply outline-dotted max-w-[350px] px-[1rem] rounded-[6px] min-h-[40px] place-content-center block w-full my-4
+}
+.form__button{
+    @apply bg-[#171717] text-[#edededed] px-[1rem]  h-[45px] font-[600] rounded-md 
+}
+@tailwind utilities;
