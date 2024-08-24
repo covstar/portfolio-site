@@ -31,7 +31,7 @@ const AppBar = () => {
                     </div>
                 </IconButton>
 
-                <div className='capitalize font-[700] text-[18px] drop-shadow-md text-[#EDEDED] '>{Title}</div>
+                <div className='capitalize font-[900] text-[18px] font-Antonio drop-shadow-md text-[#EDEDED] '>{Title}</div>
 
 
                 <div>

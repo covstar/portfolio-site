@@ -9,6 +9,7 @@ export default {
 			// font family
 			fontFamily: {
 				Montserrat: ["Roboto"],
+				Antonio: ["Antonio"],
 			},
 
 			// media quries

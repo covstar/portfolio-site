@@ -3,7 +3,7 @@
 @tailwind components;
 
 .admin_container{
-    @apply px-[8px] py-[1rem]  
+    @apply px-[20px] py-[1rem]  font-Antonio
 }
 .admin_text{
     @apply mx-auto text-center mt-[2rem]

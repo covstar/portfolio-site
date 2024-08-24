@@ -8,7 +8,7 @@
     @apply mt-[2rem] relative  pb-[4rem]
 }
 .selectedFiles_container .files {
-	@apply w-[250px] h-[350px] rounded-md overflow-hidden relative laptop:w-[350px] laptop:h-[450px] drop-shadow-md;
+	@apply w-[250px] h-[300px] rounded-md overflow-hidden relative laptop:w-[350px] laptop:h-[450px] drop-shadow-md;
 }
 .file_remove_icon {
 	@apply absolute top-2 right-2 cursor-pointer;
@@ -33,6 +33,6 @@
     @apply outline-dotted max-w-[350px] px-[1rem] rounded-[6px] min-h-[40px] place-content-center block w-full my-4
 }
 .form__button{
-    @apply bg-[#171717] text-[#edededed] px-[1rem]  h-[45px] font-[600] rounded-md 
+    @apply bg-[#171717] text-[#edededed] px-[1.4rem]  py-[.4rem] font-[600] rounded-md 
 }
 @tailwind utilities;
