@@ -7,7 +7,7 @@
 
 
 .left__sideBar_4_mobile{
-    @apply mobile:fixed mobile:h-screen w-[250px] top-0 laptop:hidden tablet:hidden bg-[#EDEDED] z-[1000]  pt-[5rem] drop-shadow-lg 
+    @apply mobile:fixed bottom-0 mobile:h-screen w-[250px] top-0 laptop:hidden tablet:hidden bg-[#EDEDED] z-[1000]  pt-[5rem] drop-shadow-lg
 }
 
 @tailwind utilities;

@@ -41,7 +41,7 @@ export const SignIn = () => {
   };
 
   return (
-    <div className='absolute  bottom-0 px-[8px] py-[8px]'>
+    <div className='fixed top-0 ml-3 px-[8px] py-[8px]'>
       {authenticated ?
         (
           <SignOut />
