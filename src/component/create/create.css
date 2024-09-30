@@ -30,7 +30,7 @@
     @apply  mt-[2rem] gap-y-4 mx-auto w-full
 }
 .caption__container textarea, .caption__container input{
-    @apply outline-dotted max-w-[350px] px-[1rem] rounded-[6px] min-h-[40px] place-content-center block w-full my-4
+    @apply outline-dotted max-w-[350px] px-[1rem] rounded-[6px] min-h-[40px] place-content-center block w-full my-4 font-Montserrat
 }
 .form__button{
     @apply bg-[#171717] text-[#edededed] px-[1.4rem]  py-[.4rem] font-[600] rounded-md 

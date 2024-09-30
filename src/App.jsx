@@ -5,7 +5,7 @@ import { BrowserRouter, Navigate, Route } from "react-router-dom";
 import { About, AdminPage, Agencies, Contact, Home, Projects, Services } from "./pages";
 import { ToastContainer, Zoom } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import { AppBar, Footer, SidebarProvider, theme } from "./component";
+import { AppBar, SidebarProvider, theme } from "./component";
 
 function App() {
   // Appbar toggle

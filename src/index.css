@@ -12,7 +12,7 @@ body{
     @apply flex w-full gap-x-2 mobile:block justify-between tablet:justify-normal h-full
 }
 .middle__container{
-    @apply max-w-[50%] mobile:max-w-full mx-auto tablet:max-w-[70%] bg-[#fff]
+    @apply  mx-auto bg-[#fff] p-4
 }
 @tailwind components;
 @tailwind utilities;

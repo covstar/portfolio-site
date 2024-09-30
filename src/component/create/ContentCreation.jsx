@@ -72,9 +72,9 @@ const ContentCreation = () => {
 		if (!selectedFiles || selectedFiles.length === 0) {
 			console.error("No files selected");
 			return;
-        }
-        
-        if (!title || title.trim() === "") return;
+		}
+
+		if (!title || title.trim() === "") return;
 
 		const cloudinaryUploadTasks = selectedFiles.map(async (file) => {
 			const cloudName = `${import.meta.env.VITE_CLOUD_NAME}`;
@@ -130,6 +130,11 @@ const ContentCreation = () => {
 
 	return (
 		<>
+			<div className="admin_text">
+				<h2>
+					Showcase Your Masterpiece: Upload a Project to Elevate Your Portfolio
+				</h2>
+			</div>
 			<div className="create_container">
 				<div className="">
 					{selectedFiles && selectedFiles.length > 0 ? (
@@ -143,13 +148,15 @@ const ContentCreation = () => {
 									return (
 										<div key={index}>
 											{isVideo ? (
-												<div>
+												<div className="files">
 													<video
 														src={url}
-														className=""
+														className="h-full w-full object-cover"
 														playsInline={true}
 														controls={false}
 														muted
+														autoPlay
+														loop
 														controlsList="nodownload"
 													/>
 													<span
